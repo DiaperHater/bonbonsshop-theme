@@ -11,24 +11,25 @@ add_post_type_support('page', 'excerpt');
 
 if (!is_admin()) {
 
-  function valerypronin_theme_setup()
+  function bonbonsshop_theme_setup()
   {
 
     // Styles
-    wp_enqueue_style('valerypronin-fonts', get_theme_file_uri('/assets/css/fonts.css'), array(), S_VERSION, 'all');
-    wp_enqueue_style('valerypronin-styles', get_theme_file_uri('/assets/css/styles.css'), array('valerypronin-fonts', 'wp-block-library'), S_VERSION, 'all');
+    wp_enqueue_style('bonbonsshop-fonts', get_theme_file_uri('/assets/css/fonts.css'), array(), S_VERSION, 'all');
+    wp_enqueue_style('bonbonsshop-styles', get_theme_file_uri('/assets/css/styles.css'), array('bonbonsshop-fonts', 'wp-block-library'), S_VERSION, 'all');
 
     // Scripts    
-    wp_enqueue_script('valerypronin-script', get_theme_file_uri('/assets/js/main.js'), array(), S_VERSION, true);
+    wp_enqueue_script('alpinejs-script', get_theme_file_uri('/assets/js/alpine.min.js'), array(), S_VERSION, true);
+    wp_enqueue_script('bonbonsshop-script', get_theme_file_uri('/assets/js/main.js'), array('alpinejs-script'), S_VERSION, true);
   }
-  add_action('after_setup_theme', 'valerypronin_theme_setup');
+  add_action('after_setup_theme', 'bonbonsshop_theme_setup');
 }
 
-function valerypronin_admin_theme_setup()
+function bonbonsshop_admin_theme_setup()
 {
   add_theme_support('post-thumbnails');
 }
-add_action('after_setup_theme', 'valerypronin_admin_theme_setup');
+add_action('after_setup_theme', 'bonbonsshop_admin_theme_setup');
 
 // CPT
 // function register_custom_post_types()
@@ -37,8 +38,8 @@ add_action('after_setup_theme', 'valerypronin_admin_theme_setup');
 //     'cpt',
 //     array(
 //       'labels'      => array(
-//         'name'          => __('CPT', 'valerypronin'),
-//         'singular_name' => __('CPT', 'valerypronin'),
+//         'name'          => __('CPT', 'bonbonsshop'),
+//         'singular_name' => __('CPT', 'bonbonsshop'),
 //       ),
 //       'public'      => true,
 //       'has_archive' => false,
