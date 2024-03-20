@@ -8,3 +8,48 @@
     scroll-behavior: smooth;
   }
 }
+
+@layer components {
+
+  /* Override Woo styles */
+
+  .bonbonsshop .woocommerce .products ul,
+  .bonbonsshop .woocommerce ul.products {
+    @apply grid before:hidden after:hidden min-[420px]:grid-cols-2 min-[420px]:gap-4 lg:grid-cols-3 lg:gap-8;
+  }
+
+  .bonbonsshop .woocommerce ul.products[class*="columns-"] li.product,
+  .bonbonsshop .woocommerce-page ul.products[class*="columns-"] li.product {
+    @apply float-none w-full mx-0;
+  }
+
+  .bonbonsshop .woocommerce ul.products li.product {
+    @apply pb-8 overflow-hidden shadow-2xl rounded-2xl;
+  }
+
+  .bonbonsshop .woocommerce ul.products li.product a img {
+    @apply mb-4;
+  }
+
+  .bonbonsshop .woocommerce ul.products li.product .woocommerce-loop-category__title,
+  .bonbonsshop .woocommerce ul.products li.product .woocommerce-loop-product__title,
+  .bonbonsshop .woocommerce ul.products li.product h3 {
+    @apply px-4 text-xl font-semibold sm:text-2xl;
+  }
+
+  .bonbonsshop .woocommerce ul.products li.product .price {
+    @apply px-4 text-xl font-bold;
+  }
+
+  .bonbonsshop .woocommerce ul.products li.product .button {
+    @apply block mx-auto w-fit;
+  }
+
+  .bonbonsshop .woocommerce a.added_to_cart {
+    @apply block px-4;
+  }
+
+  /* End Override Woo styles */
+
+
+}

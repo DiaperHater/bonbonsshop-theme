@@ -31,55 +31,30 @@ function bonbonsshop_admin_theme_setup()
 }
 add_action('after_setup_theme', 'bonbonsshop_admin_theme_setup');
 
-// CPT
-// function register_custom_post_types()
+/** START Woo */
+
+
+
+// START Unhook the WooCommerce wrappers
+remove_action('woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
+remove_action('woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
+// END Unhook the WooCommerce wrappers
+
+function bonbonsshop_woocommerce_template_loop_short_description()
+{
+  echo '<span class="block px-4 mb-4">' . get_the_excerpt() . '</span>';
+}
+add_action('woocommerce_after_shop_loop_item_title', 'bonbonsshop_woocommerce_template_loop_short_description', 5);
+
+remove_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 20);
+remove_action('woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30);
+
+
+// remove_action('woocommerce_shop_loop_item_title', 'woocommerce_template_loop_product_title', 10);
+// function bons_woocommerce_template_loop_product_title()
 // {
-//   register_post_type(
-//     'cpt',
-//     array(
-//       'labels'      => array(
-//         'name'          => __('CPT', 'bonbonsshop'),
-//         'singular_name' => __('CPT', 'bonbonsshop'),
-//       ),
-//       'public'      => true,
-//       'has_archive' => false,
-//       'menu_icon' => 'dashicons-awards',
-//       'supports' => array('title'),
-//       'rewrite' => array(
-//         'with_front' => false,
-//         'slug' => 'cpt'
-//       )
-//     )
-//   );
+//   echo '<h2 class="text-2xl font-bold">Suck my dick! hahaha )))</h2>';
 // }
-// add_action('init', 'register_custom_post_types');
+// add_action('woocommerce_shop_loop_item_title', 'bons_woocommerce_template_loop_product_title', 10);
 
-
-//Custom Taxonomies
-// function register_custom_taxonomies()
-// {
-//   register_taxonomy('cpt-category', 'cpt', array(
-//     'label' => 'Category',
-//     'hierarchical' => true
-//   ));
-// }
-// add_action('init', 'register_custom_taxonomies');
-
-
-// Shortcodes
-// function register_shortcodes()
-// {
-//
-//   function print_shortcode($atts)
-//   {
-//     ob_start();
-//     get_template_part('template-parts/content/shortcode', 'name');
-//     return ob_get_clean();
-//   }
-//   add_shortcode('shortcodename', 'print_shortcode');
-// }
-// add_action('init', 'register_shortcodes');
-
-
-// CF7
-// add_filter('wpcf7_autop_or_not', '__return_false');
+/** END Woo */
