@@ -23,7 +23,7 @@
       <nav class="grid items-center grid-cols-2 py-3 lg:grid-cols-3">
         <!-- Logo -->
         <a href="/" class="mr-12 text-4xl font-bold leading-none tracking-wide hover:text-rosy-brown text-new-york-pink">
-          BonBon's
+          BonBons
         </a>
         <!-- Lable -->
         <div class="hidden lg:flex lg:items-center lg:gap-x-4 lg:justify-self-center">
