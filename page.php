@@ -1,10 +1,7 @@
 <?php get_header() ?>
 
-<section class="mt-24">
+<section class="py-24">
   <div class="wrapper">
-    <h1 class="text-5xl font-semibold text-center text-red-500">
-      page
-    </h1>
     <?php
 
     if (have_posts()) {

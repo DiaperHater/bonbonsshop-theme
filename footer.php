@@ -5,7 +5,7 @@
     <div class="lg:grid lg:grid-cols-2">
       <!-- Column -->
       <div class="">
-        <h2 class="text-6xl font-bold tracking-wide text-new-york-pink">
+        <h2 class="section-heading">
           Контакты
         </h2>
         <address class="mt-12 text-xl not-italic">

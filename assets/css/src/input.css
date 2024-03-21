@@ -15,6 +15,10 @@
 
 @layer components {
 
+  .section-heading {
+    @apply text-4xl font-bold tracking-wide text-new-york-pink sm:text-5xl lg:text-6xl;
+  }
+
   /* Override Woo styles */
 
   .bonbonsshop .woocommerce .products ul,

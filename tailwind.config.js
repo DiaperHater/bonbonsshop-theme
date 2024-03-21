@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         'rosy-brown': '#B59494',
         'new-york-pink': '#D68386',
+        'linen': '#FBEBEC',
       }
     },
   },
