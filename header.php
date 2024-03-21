@@ -17,7 +17,7 @@
 
 <body>
   <!-- Header -->
-  <header class="fixed top-0 left-0 z-50 w-full text-white bg-neutral-900 bg-opacity-10 backdrop-blur-sm" x-data="mobileMenu">
+  <header class="fixed top-0 left-0 z-50 w-full text-white backdrop-blur-sm" x-data="mobileMenu">
     <div class="wrapper">
       <!-- Inner -->
       <nav class="grid items-center grid-cols-2 py-3 lg:grid-cols-3">
