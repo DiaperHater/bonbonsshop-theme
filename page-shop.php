@@ -140,7 +140,7 @@
 </section>
 
 <!-- CTA -->
-<section class="py-8">
+<section class="py-12 bg-new-york-pink bg-opacity-20 sm:py-24">
   <div class="wrapper">
     <!-- Columns -->
     <div class="sm:grid sm:grid-cols-3 sm:gap-12 lg:grid-cols-5">
@@ -149,13 +149,13 @@
         <h2 class="section-heading text-zinc-500 sm:hidden">
           Позвоните нам
         </h2>
-        <figure class="mt-12 w-52 aspect-[5/7] relative mx-auto group sm:w-full lg:w-60">
+        <figure class="mt-12 w-52 aspect-[5/7] relative mx-auto group sm:w-full lg:w-60 sm:mt-0">
           <span class="absolute inset-0 duration-200 border-2 border-zinc-700/20 rounded-2xl rotate-6 group-hover:rotate-0"></span>
           <img src="<?= get_template_directory_uri() ?>/assets/images/bonbons-hero-image.webp" alt="Кондитерская BonBons г. Солигорск" class="absolute inset-0 object-cover object-center w-full h-full rounded-2xl">
         </figure>
       </div>
       <!-- Column -->
-      <div class="mt-12 sm:col-span-2 lg:col-span-3">
+      <div class="mt-12 sm:col-span-2 lg:col-span-3 sm:mt-0">
         <h2 class="hidden section-heading text-zinc-500 sm:block">
           Позвоните нам
         </h2>
