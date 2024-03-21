@@ -88,6 +88,55 @@
   })
 </script>
 
+<!-- DeliveryInfo -->
+<section class="py-24">
+  <div class="wrapper">
+    <!-- Heading -->
+    <h2 class="section-heading">
+      Доставка
+    </h2>
+    <!-- Text -->
+    <p class="mt-8 text-2xl text-zinc-500">
+      Вы можете самостоятельно забрать свой набор у <a href="#contacts" class="hover:text-rosy-brown text-new-york-pink">нас</a> или заказать доставку до
+      адреса
+      <br>Доставка наборов работает с 10:00 до 20:00
+    </p>
+    <!-- Items -->
+    <ul class="mt-12">
+      <li class="flex items-center justify-between p-6 mt-6 border-4 border-opacity-50 rounded-2xl border-new-york-pink">
+        <span class="w-4/12 mr-4 text-xl font-bold md:text-3xl text-new-york-pink/90">
+          5 Рублей
+        </span>
+        <span class="w-8/12 text-lg font-semibold md:text-2xl text-zinc-700">
+          По городу Солигорску
+        </span>
+      </li>
+      <li class="flex items-center justify-between p-6 mt-6 border-4 border-opacity-50 rounded-2xl border-new-york-pink">
+        <span class="w-4/12 mr-4 text-xl font-bold md:text-3xl text-new-york-pink/90">
+          10 Рублей
+        </span>
+        <span class="w-8/12 text-lg font-semibold md:text-2xl text-zinc-700">
+          Поместье
+        </span>
+      </li>
+      <li class="flex items-center justify-between p-6 mt-6 border-4 border-opacity-50 rounded-2xl border-new-york-pink">
+        <span class="w-4/12 mr-4 text-xl font-bold md:text-3xl text-new-york-pink/90">
+          15 Рублей
+        </span>
+        <span class="w-8/12 text-lg font-semibold md:text-2xl text-zinc-700">
+          Старобин
+        </span>
+      </li>
+      <li class="flex items-center justify-between p-6 mt-6 border-4 border-opacity-50 rounded-2xl border-new-york-pink">
+        <span class="w-4/12 mr-4 text-xl font-bold md:text-3xl text-new-york-pink/90">
 
+        </span>
+        <span class="w-8/12 text-lg font-semibold md:text-2xl text-zinc-700">
+          Другие районы и пригород рассчитываются индивидуально
+        </span>
+      </li>
+    </ul>
+  </div>
+</section>
 
 <?php get_footer() ?>

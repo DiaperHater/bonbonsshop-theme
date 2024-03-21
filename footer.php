@@ -1,5 +1,5 @@
 <!-- Contacts -->
-<section class="pt-32 pb-12 border-b">
+<section id="contacts" class="pt-32 pb-12 border-b">
   <div class="wrapper">
     <!-- Columns -->
     <div class="lg:grid lg:grid-cols-2">
