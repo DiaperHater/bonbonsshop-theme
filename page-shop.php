@@ -139,4 +139,35 @@
   </div>
 </section>
 
+<!-- CTA -->
+<section class="py-8">
+  <div class="wrapper">
+    <!-- Columns -->
+    <div class="sm:grid sm:grid-cols-3 sm:gap-12 lg:grid-cols-5">
+      <!-- Column -->
+      <div class="lg:col-span-2">
+        <h2 class="section-heading text-zinc-500 sm:hidden">
+          Позвоните нам
+        </h2>
+        <figure class="mt-12 w-52 aspect-[5/7] relative mx-auto group sm:w-full lg:w-60">
+          <span class="absolute inset-0 duration-200 border-2 border-zinc-700/20 rounded-2xl rotate-6 group-hover:rotate-0"></span>
+          <img src="<?= get_template_directory_uri() ?>/assets/images/bonbons-hero-image.webp" alt="Кондитерская BonBons г. Солигорск" class="absolute inset-0 object-cover object-center w-full h-full rounded-2xl">
+        </figure>
+      </div>
+      <!-- Column -->
+      <div class="mt-12 sm:col-span-2 lg:col-span-3">
+        <h2 class="hidden section-heading text-zinc-500 sm:block">
+          Позвоните нам
+        </h2>
+        <p class="mt-6 text-xl text-zinc-700">
+          Если у вас остались любые вопросы, насчёт заказа праздничных наборов, то просто позвоните нам. Мы на связи.
+        </p>
+        <a href="tel:+375257377530" class="block mt-6 text-xl text-zinc-500 w-max hover:text-rosy-brown">
+          +375 (25) 737-75-30
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <?php get_footer() ?>
