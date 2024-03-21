@@ -41,7 +41,7 @@
 </section>
 
 <!-- Products -->
-<section id="products" class="pt-32 pb-24">
+<section id="products" class="pt-32 pb-12">
   <div class="wrapper">
     <?php
 
@@ -55,5 +55,39 @@
     ?>
   </div>
 </section>
+
+<!-- Info -->
+<section id="animated-bg" class="py-24">
+  <div class="wrapper">
+    <p class="text-2xl font-semibold tracking-wider text-zinc-700">
+      Пожалуйста, обратите внимание, мы осуществляем бронь наборов по предварительной 100% предоплате. После оформления заказа вы автоматически будете перенаправлены на страницу платежной системы.
+    </p>
+    <p class="mt-6 text-2xl font-semibold tracking-wider text-zinc-700">
+      Если у вас возникнут любые трудности с оплатой заказа, свяжитесь с нами по телефону <a href="tel:+375257377530" class="hover:text-rosy-brown">+375 (25) 737-75-30</a>. При отмене заказа, предоплата не возвращается.
+    </p>
+  </div>
+</section>
+<script src="<?= get_template_directory_uri() ?>/assets/js/three.min.js"></script>
+<script src="<?= get_template_directory_uri() ?>/assets/js/vanta.birds.min.js"></script>
+<script>
+  VANTA.BIRDS({
+    el: "#animated-bg",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    backgroundColor: 0xffffff,
+    color1: 0xcd3f3f,
+    color2: 0xca7575,
+    birdSize: 1.70,
+    wingSpan: 24.00,
+    quantity: 4.00
+  })
+</script>
+
+
 
 <?php get_footer() ?>
