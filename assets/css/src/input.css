@@ -21,6 +21,8 @@
 
   /* Override Woo styles */
 
+  /* Start Products Loop */
+
   .bonbonsshop .woocommerce .products ul,
   .bonbonsshop .woocommerce ul.products {
     @apply grid before:hidden after:hidden min-[420px]:grid-cols-2 min-[420px]:gap-4 lg:grid-cols-3 lg:gap-8;
@@ -56,6 +58,127 @@
   .bonbonsshop .woocommerce a.added_to_cart {
     @apply block px-4;
   }
+
+  /* End Products Loop */
+
+  /* Start Single Product */
+  .bonbonsshop .single-product {
+
+    .woocommerce-product-gallery__image {
+      @apply rounded-2xl;
+    }
+
+    /* gallery */
+    .flex-control-nav.flex-control-thumbs {
+      @apply !mt-4 !flex !gap-1.5;
+
+      img {
+        @apply rounded-lg;
+      }
+    }
+
+    .price {
+      @apply text-xl text-zinc-700;
+    }
+
+    .woocommerce-product-details__short-description {
+      @apply mt-6 text-xl text-zinc-700;
+    }
+
+    form.cart {
+      @apply mt-6 sm:flex;
+
+      .quantity {
+        @apply !mr-8;
+
+        input {
+          @apply border-new-york-pink/50 border-2 text-zinc-700 text-lg rounded-lg focus:ring-new-york-pink focus:border-new-york-pink block w-full p-2.5;
+        }
+      }
+
+      button {
+        @apply bg-new-york-pink/90 hover:bg-new-york-pink;
+      }
+    }
+
+    form.variations_form {
+      @apply mt-6;
+
+      th.label {
+        @apply text-lg !font-semibold text-zinc-700 flex;
+      }
+
+      td.value {
+
+        select {
+          @apply p-2 text-lg bg-white text-zinc-500;
+        }
+
+        .reset_variations {
+          @apply text-base text-zinc-500;
+        }
+      }
+
+      .price {
+        @apply inline-block mb-6;
+      }
+
+      .woocommerce-variation-add-to-cart {
+
+        @apply flex items-stretch sm:block;
+
+        .quantity {
+
+          input {
+            @apply border-new-york-pink/50 border-2 text-zinc-700 text-lg rounded-lg focus:ring-new-york-pink focus:border-new-york-pink block w-full p-2.5;
+          }
+        }
+
+        button {
+          @apply sm:mt-6 bg-new-york-pink/90 hover:bg-new-york-pink;
+        }
+      }
+
+    }
+
+    .product_meta {
+      @apply hidden;
+    }
+
+    .woocommerce-tabs {
+
+      @apply pb-4 border-b border-[#cfc8d8];
+
+      .panel {
+
+        h2 {
+          @apply !mb-4 text-2xl font-bold text-zinc-700;
+        }
+
+        p {
+          @apply text-xl text-zinc-700;
+        }
+
+        .woocommerce-product-attributes-item__label {
+          @apply text-xl font-bold text-zinc-700;
+        }
+
+        .woocommerce-product-attributes-item__value {
+          @apply text-xl text-zinc-700;
+        }
+      }
+    }
+
+    .related.products {
+      @apply mt-12;
+
+      h2 {
+        @apply !mb-4 text-2xl font-bold text-zinc-700;
+      }
+    }
+  }
+
+  /* End Single Product */
 
   /* End Override Woo styles */
 
