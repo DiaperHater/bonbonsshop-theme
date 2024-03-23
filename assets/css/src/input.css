@@ -6,6 +6,7 @@
   html {
     font-family: "Roboto Condenced";
     scroll-behavior: smooth;
+    @apply text-zinc-700;
   }
 
   .wrapper {
@@ -15,8 +16,14 @@
 
 @layer components {
 
-  .section-heading {
+  .section-heading,
+  .wp-block-heading {
     @apply text-4xl font-bold tracking-wide text-new-york-pink sm:text-5xl lg:text-6xl;
+  }
+
+  .bonbonsshop .wp-block-button__link,
+  .bonbonsshop .wc-block-cart__submit-button {
+    @apply text-white rounded-xl bg-new-york-pink bg-opacity-90 hover:bg-opacity-100;
   }
 
   /* Override Woo styles */
@@ -62,72 +69,36 @@
   /* End Products Loop */
 
   /* Start Single Product */
-  .bonbonsshop .single-product {
+  .bonbonsshop {
 
-    .woocommerce-product-gallery__image {
-      @apply rounded-2xl;
-    }
+    .single-product {
 
-    /* gallery */
-    .flex-control-nav.flex-control-thumbs {
-      @apply !mt-4 !flex !gap-1.5;
-
-      img {
-        @apply rounded-lg;
-      }
-    }
-
-    .price {
-      @apply text-xl text-zinc-700;
-    }
-
-    .woocommerce-product-details__short-description {
-      @apply mt-6 text-xl text-zinc-700;
-    }
-
-    form.cart {
-      @apply mt-6 sm:flex;
-
-      .quantity {
-        @apply !mr-8;
-
-        input {
-          @apply border-new-york-pink/50 border-2 text-zinc-700 text-lg rounded-lg focus:ring-new-york-pink focus:border-new-york-pink block w-full p-2.5;
-        }
+      .woocommerce-product-gallery__image {
+        @apply rounded-2xl;
       }
 
-      button {
-        @apply bg-new-york-pink/90 hover:bg-new-york-pink;
-      }
-    }
+      /* gallery */
+      .flex-control-nav.flex-control-thumbs {
+        @apply !mt-4 !flex !gap-1.5;
 
-    form.variations_form {
-      @apply mt-6;
-
-      th.label {
-        @apply text-lg !font-semibold text-zinc-700 flex;
-      }
-
-      td.value {
-
-        select {
-          @apply p-2 text-lg bg-white text-zinc-500;
-        }
-
-        .reset_variations {
-          @apply text-base text-zinc-500;
+        img {
+          @apply rounded-lg;
         }
       }
 
       .price {
-        @apply inline-block mb-6;
+        @apply text-xl text-zinc-700;
       }
 
-      .woocommerce-variation-add-to-cart {
+      .woocommerce-product-details__short-description {
+        @apply mt-6 text-xl text-zinc-700;
+      }
 
-        @apply flex items-stretch sm:block;
+      form.cart {
+        @apply mt-6 sm:flex;
 
         .quantity {
+          @apply !mr-8;
 
           input {
             @apply border-new-york-pink/50 border-2 text-zinc-700 text-lg rounded-lg focus:ring-new-york-pink focus:border-new-york-pink block w-full p-2.5;
@@ -135,48 +106,135 @@
         }
 
         button {
-          @apply sm:mt-6 bg-new-york-pink/90 hover:bg-new-york-pink;
+          @apply bg-new-york-pink/90 hover:bg-new-york-pink;
         }
       }
 
-    }
+      form.variations_form {
+        @apply mt-6;
 
-    .product_meta {
-      @apply hidden;
-    }
+        th.label {
+          @apply text-lg !font-semibold text-zinc-700 flex;
+        }
 
-    .woocommerce-tabs {
+        td.value {
 
-      @apply pb-4 border-b border-[#cfc8d8];
+          select {
+            @apply p-2 text-lg bg-white text-zinc-500;
+          }
 
-      .panel {
+          .reset_variations {
+            @apply text-base text-zinc-500;
+          }
+        }
+
+        .price {
+          @apply inline-block mb-6;
+        }
+
+        .woocommerce-variation-add-to-cart {
+
+          @apply flex items-stretch sm:block;
+
+          .quantity {
+
+            input {
+              @apply border-new-york-pink/50 border-2 text-zinc-700 text-lg rounded-lg focus:ring-new-york-pink focus:border-new-york-pink block w-full p-2.5;
+            }
+          }
+
+          button {
+            @apply sm:mt-6 bg-new-york-pink/90 hover:bg-new-york-pink;
+          }
+        }
+
+      }
+
+      .product_meta {
+        @apply hidden;
+      }
+
+      .woocommerce-tabs {
+
+        @apply pb-4 border-b border-[#cfc8d8];
+
+        .panel {
+
+          h2 {
+            @apply !mb-4 text-2xl font-bold text-zinc-700;
+          }
+
+          p {
+            @apply text-xl text-zinc-700;
+          }
+
+          .woocommerce-product-attributes-item__label {
+            @apply text-xl font-bold text-zinc-700;
+          }
+
+          .woocommerce-product-attributes-item__value {
+            @apply text-xl text-zinc-700;
+          }
+        }
+      }
+
+      .related.products {
+        @apply mt-12;
 
         h2 {
           @apply !mb-4 text-2xl font-bold text-zinc-700;
         }
-
-        p {
-          @apply text-xl text-zinc-700;
-        }
-
-        .woocommerce-product-attributes-item__label {
-          @apply text-xl font-bold text-zinc-700;
-        }
-
-        .woocommerce-product-attributes-item__value {
-          @apply text-xl text-zinc-700;
-        }
       }
+
     }
 
-    .related.products {
-      @apply mt-12;
+    .wp-block-woocommerce-cart {
 
-      h2 {
-        @apply !mb-4 text-2xl font-bold text-zinc-700;
+      .wc-block-cart__empty-cart__title {
+        @apply mb-12;
+      }
+
+      .wc-block-cart-items__header {
+        span {
+          @apply text-lg text-zinc-700;
+        }
+      }
+
+      span.wc-block-cart__totals-title {
+        @apply text-lg text-zinc-700;
+      }
+
+      .wc-block-cart-item__image img {
+        @apply rounded-xl;
+      }
+
+      .wc-block-components-product-name {
+        @apply text-lg;
+      }
+
+      .wc-block-components-shipping-address {
+        @apply hidden;
+      }
+
+      .wc-block-components-totals-item__description {
+        @apply text-base;
+      }
+
+      .wc-block-components-totals-shipping__change-address__link {
+        @apply inline-block mt-6;
+      }
+
+      .wc-block-formatted-money-amount {
+        @apply text-base;
+      }
+
+      .wc-block-components-radio-control .wc-block-components-radio-control__input:checked::before {
+        @apply bg-new-york-pink;
       }
     }
   }
+
+
 
   /* End Single Product */
 

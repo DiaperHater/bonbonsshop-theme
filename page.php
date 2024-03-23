@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-<section class="py-24">
+<section class="py-24 md:py-32">
   <div class="wrapper">
     <?php
 

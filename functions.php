@@ -35,16 +35,16 @@ add_action('after_setup_theme', 'bonbonsshop_admin_theme_setup');
 
 
 
-// START Unhook the WooCommerce wrappers
-remove_action('woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
-remove_action('woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
-// END Unhook the WooCommerce wrappers
 
 function bonbonsshop_woocommerce_template_loop_short_description()
 {
   echo '<span class="block px-4 mb-4">' . get_the_excerpt() . '</span>';
 }
 add_action('woocommerce_after_shop_loop_item_title', 'bonbonsshop_woocommerce_template_loop_short_description', 5);
+
+
+remove_action('woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
+remove_action('woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10); // END Unhook the WooCommerce wrappers
 
 remove_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 20);
 remove_action('woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30);
