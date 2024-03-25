@@ -20,7 +20,7 @@ if (!is_admin()) {
 
     // Scripts    
     wp_enqueue_script('alpinejs-script', get_theme_file_uri('/assets/js/alpine.min.js'), array(), S_VERSION, true);
-    wp_enqueue_script('bonbonsshop-script', get_theme_file_uri('/assets/js/main.js'), array('alpinejs-script'), S_VERSION, true);
+    wp_enqueue_script('bonbonsshop-script', get_theme_file_uri('/assets/js/main.js'), array('alpinejs-script'), '0.9.0', true);
   }
   add_action('after_setup_theme', 'bonbonsshop_theme_setup');
 }
@@ -33,6 +33,16 @@ add_action('after_setup_theme', 'bonbonsshop_admin_theme_setup');
 
 /** START Woo */
 
+
+
+function ajax_update_cart_fragment($fragments)
+{
+  ob_start();
+  $fragments['#cart-count'] = '<a href="/cart/" id="cart-count" class="flex mt-1 font-bold tracking-wider gap-2text-lg text-new-york-pink hover:text-rosy-brown"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"> <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" /> </svg>' . WC()->cart->get_total() . '</a>';
+  ob_get_clean();
+  return $fragments;
+}
+add_filter('woocommerce_add_to_cart_fragments', 'ajax_update_cart_fragment');
 
 
 

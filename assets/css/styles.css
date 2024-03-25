@@ -2038,6 +2038,10 @@ html {
   margin-right: 1rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -2169,6 +2173,10 @@ html {
   height: 0.25rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-\[100vh\] {
   height: 100vh;
 }
@@ -2187,6 +2195,10 @@ html {
 
 .w-52 {
   width: 13rem;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .w-8\/12 {
@@ -4058,6 +4070,10 @@ html {
 
 .forced-color-adjust-none {
   forced-color-adjust: none;
+}
+
+.\[hostname\:port\] {
+  hostname: port;
 }
 
 .hover\:prose-lg:hover {
