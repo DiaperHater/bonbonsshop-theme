@@ -1390,7 +1390,8 @@ html {
 }
 
 .bonbonsshop .wp-block-button__link,
-  .bonbonsshop .wc-block-cart__submit-button {
+  .bonbonsshop .wc-block-cart__submit-button,
+  .bonbonsshop .wc-block-components-button {
   border-radius: 0.75rem;
   background-color: rgb(214 131 134 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.9;
@@ -1399,7 +1400,8 @@ html {
 }
 
 .bonbonsshop .wp-block-button__link:hover,
-  .bonbonsshop .wc-block-cart__submit-button:hover {
+  .bonbonsshop .wc-block-cart__submit-button:hover,
+  .bonbonsshop .wc-block-components-button:hover {
   --tw-bg-opacity: 1;
 }
 
@@ -4070,10 +4072,6 @@ html {
 
 .forced-color-adjust-none {
   forced-color-adjust: none;
-}
-
-.\[hostname\:port\] {
-  hostname: port;
 }
 
 .hover\:prose-lg:hover {

@@ -22,7 +22,8 @@
   }
 
   .bonbonsshop .wp-block-button__link,
-  .bonbonsshop .wc-block-cart__submit-button {
+  .bonbonsshop .wc-block-cart__submit-button,
+  .bonbonsshop .wc-block-components-button {
     @apply text-white rounded-xl bg-new-york-pink bg-opacity-90 hover:bg-opacity-100;
   }
 
