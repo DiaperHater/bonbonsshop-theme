@@ -17,7 +17,7 @@
 @layer components {
 
   .section-heading,
-  .wp-block-heading {
+  .wp-block-heading:not(.prose .wp-block-heading) {
     @apply text-4xl font-bold tracking-wide text-new-york-pink sm:text-5xl lg:text-6xl;
   }
 

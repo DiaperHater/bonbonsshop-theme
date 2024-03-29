@@ -1364,7 +1364,7 @@ html {
 }
 
 .section-heading,
-  .wp-block-heading {
+  .wp-block-heading:not(.prose .wp-block-heading) {
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 700;
@@ -1375,7 +1375,7 @@ html {
 
 @media (min-width: 640px) {
   .section-heading,
-  .wp-block-heading {
+  .wp-block-heading:not(.prose .wp-block-heading) {
     font-size: 3rem;
     line-height: 1;
   }
@@ -1383,7 +1383,7 @@ html {
 
 @media (min-width: 1024px) {
   .section-heading,
-  .wp-block-heading {
+  .wp-block-heading:not(.prose .wp-block-heading) {
     font-size: 3.75rem;
     line-height: 1;
   }
@@ -2234,6 +2234,10 @@ html {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
 }
 
 .max-w-xs {
@@ -5692,6 +5696,11 @@ html {
 .prose-h2\:text-2xl :is(:where(h2):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.prose-h2\:text-new-york-pink :is(:where(h2):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  --tw-text-opacity: 1;
+  color: rgb(214 131 134 / var(--tw-text-opacity));
 }
 
 .prose-h3\:text-xl :is(:where(h3):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
