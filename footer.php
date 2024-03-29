@@ -44,17 +44,17 @@
         <a href="/" class="block mb-12 mr-12 text-4xl font-bold leading-none tracking-wide hover:text-rosy-brown text-new-york-pink">
           BonBons
         </a>
-        <a href="#" class="block mt-2 font-light text-zinc-400 hover:text-rosy-brown">
+        <a href="/pravovaya-informacia" class="block mt-2 font-light text-zinc-400 hover:text-rosy-brown">
           Правовая информация
         </a>
-        <a href="#" class="block mt-2 font-light text-zinc-400 hover:text-rosy-brown">
-          Способы оплаты
+        <a href="/dostavka-i-oplata" class="block mt-2 font-light text-zinc-400 hover:text-rosy-brown">
+          Доставка и оплата
         </a>
-        <a href="#" class="block mt-2 font-light leading-tight text-zinc-400 hover:text-rosy-brown">
+        <a href="/politika-v-otnoshenii-obrabotki-personalnykh-dannykh/" class="block mt-2 font-light leading-tight text-zinc-400 hover:text-rosy-brown">
           Политика обработки
           <br>персональных данных
         </a>
-        <a href="#" class="block mt-2 font-light text-zinc-400 hover:text-rosy-brown">
+        <a href="/publichnaya-oferta" class="block mt-2 font-light text-zinc-400 hover:text-rosy-brown">
           Публичная оферта
         </a>
         <span class="block mt-6 font-light text-zinc-400">
