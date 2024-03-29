@@ -62,13 +62,17 @@
         </span>
       </div>
       <!-- Column -->
-      <div class="mt-12 sm:mt-0 sm:justify-self-end">
+      <div class="mt-12 sm:mt-0 sm:justify-self-end sm:flex sm:flex-col sm:items-end">
         <h3 class="text-xl font-bold text-zinc-500">
           Связаться с нами
         </h3>
         <a href="tel:+375257377530" class="block mt-2 font-light text-zinc-400 hover:text-rosy-brown">
           +375 (25) 737-75-30
         </a>
+        <picture class="mt-6 sm:mt-auto">
+          <source media="(min-width: 640px)" srcset="<?= get_template_directory_uri() ?>/assets/images/payment-logos-horisontal.png">
+          <img src="<?= get_template_directory_uri() ?>/assets/images/payment-logos-vertical.png" alt="логотипы VISA, Visa Secure, MasterCard, MasterCard ID Check, Белкарт, Белкарт ИнтернетПароль, Apple Pay, Samsung Pay, Yandex Pay" class="w-40 sm:w-full sm:mt-auto">
+        </picture>
       </div>
     </div>
   </div>
