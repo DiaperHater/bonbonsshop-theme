@@ -9,7 +9,7 @@
           Контакты
         </h2>
         <address class="mt-12 text-xl not-italic">
-          Минская область, Солигорск,
+          Беларусь, Минская область, Солигорск,
           <br>Набережная улица, 4
         </address>
         <p class="mt-6 text-xl not-italic">
@@ -57,6 +57,11 @@
         <a href="/publichnaya-oferta" class="block mt-2 font-light text-zinc-400 hover:text-rosy-brown">
           Публичная оферта
         </a>
+        <span class="block mt-6 font-light text-zinc-400">
+          Частное унитарное предприятие «Бонбонс»
+          <br>BY05 ALFA 3012 2E42 7500 1027 0000
+          <br>УНП 693294239
+        </span>
         <span class="block mt-6 font-light text-zinc-400">
           © <?= date("Y") ?> Кондитерская "BONBONS" г.&nbsp;Солигорск
         </span>
