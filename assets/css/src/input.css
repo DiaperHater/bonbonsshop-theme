@@ -235,9 +235,31 @@
     }
   }
 
-
-
   /* End Single Product */
+
+  /* Start Delivery & Pickup date picker */
+  .bonbonsshop {
+    .orddd_lite_field_note {
+      @apply text-lg text-orange-400;
+    }
+
+    .wc-block-components-form {
+      .wc-block-components-text-input {
+        label {
+          transform: translateY(.5em) scale(.75);
+        }
+
+      }
+
+      .wc-block-components-text-input.orddd-datepicker {
+        .hasDatepicker {
+          padding: 2em .5em .5em;
+        }
+      }
+    }
+  }
+
+  /* End Delivery & Pickup date picker */
 
   /* End Override Woo styles */
 
