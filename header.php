@@ -72,12 +72,37 @@
         <!-- Inner -->
         <div class="flex flex-col pb-40 gap-y-16 pt-14">
           <!-- Links -->
-          <div class="flex flex-col gap-y-4">
+          <div class="flex flex-col items-center gap-y-4">
             <span class="text-3xl font-semibold tracking-wide text-center text-white">
               Кондитерская в
               <br>Солигорке
             </span>
+            <a href="https://www.instagram.com/bonbons_pasticciere/" class="grid place-items-center" target="_blank">
+              <img src="<?= get_template_directory_uri() ?>/assets/images/icon-insta.webp" alt="Bonbons Instagram Icon" class="object-contain object-center w-12 h-12">
+              <span class="mt-2 font-bold text-white">@bonbons_pasticciere</span>
+            </a>
           </div>
+          <nav>
+            <a href="/" class="block mt-4 text-2xl text-white hover:text-zinc-700 hover:underline">
+              Домашняя страница
+            </a>
+            <a href="/cart" class="block mt-4 text-2xl text-white hover:text-zinc-700 hover:underline">
+              Корзина
+            </a>
+            <a href="/pravovaya-informacia" class="block mt-4 text-lg text-white hover:text-zinc-700 hover:underline">
+              Правовая информация
+            </a>
+            <a href="/dostavka-i-oplata" class="block mt-4 text-lg text-white hover:text-zinc-700 hover:underline">
+              Доставка и оплата
+            </a>
+            <a href="/politika-v-otnoshenii-obrabotki-personalnykh-dannykh/" class="block mt-4 text-lg text-white hover:text-zinc-700 hover:underline">
+              Политика обработки
+              <br>персональных данных
+            </a>
+            <a href="/publichnaya-oferta" class="block mt-4 text-lg text-white hover:text-zinc-700 hover:underline">
+              Публичная оферта
+            </a>
+          </nav>
           <!-- Contact -->
           <a href="tel:+375257377530" class="self-center text-2xl font-semibold">
             +375 (25) 737-75-30
