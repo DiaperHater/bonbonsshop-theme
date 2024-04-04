@@ -134,6 +134,14 @@
           }
         }
 
+        select[id="pa_filling"] {
+
+          @apply px-2 text-base border rounded-lg appearance-none border-new-york-pink;
+
+          background: url(/wp-content/themes/bonbonsshop-theme/assets/images/chevron-down.svg) no-repeat center right 5px;
+          background-size: 24px;
+        }
+
         .price {
           @apply inline-block mb-6;
         }

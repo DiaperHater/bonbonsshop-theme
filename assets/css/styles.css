@@ -1644,6 +1644,33 @@ html {
           color: rgb(113 113 122 / var(--tw-text-opacity));
         }
       }
+      select[id="pa_filling"] {
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+      }
+      select[id="pa_filling"] {
+        border-radius: 0.5rem;
+      }
+      select[id="pa_filling"] {
+        border-width: 1px;
+      }
+      select[id="pa_filling"] {
+        --tw-border-opacity: 1;
+        border-color: rgb(214 131 134 / var(--tw-border-opacity));
+      }
+      select[id="pa_filling"] {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+      }
+      select[id="pa_filling"] {
+        font-size: 1rem;
+        line-height: 1.5rem;
+      }
+      select[id="pa_filling"] {
+        background: url(/wp-content/themes/bonbonsshop-theme/assets/images/chevron-down.svg) no-repeat center right 5px;
+        background-size: 24px;
+      }
       .price {
         margin-bottom: 1.5rem;
       }
