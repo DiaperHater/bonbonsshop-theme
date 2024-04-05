@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export REPOPATH=/home/bonbonspro/repositories/bonbonsshop-theme/*
+    - export SITEPATH=/home/bonbonspro/public_html/wp-content/themes/bonbonsshop-theme
+    - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
