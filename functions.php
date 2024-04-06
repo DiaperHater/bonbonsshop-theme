@@ -33,6 +33,20 @@ add_action('after_setup_theme', 'bonbonsshop_admin_theme_setup');
 
 /** START Woo */
 
+function custom_woocommerce_auto_complete_order($order_id)
+{
+  if (!$order_id) {
+
+    return;
+  }
+
+  $order = wc_get_order($order_id);
+  if (!$order->has_status('processing')) {
+
+    $order->update_status('processing');
+  }
+}
+add_action('woocommerce_thankyou', 'custom_woocommerce_auto_complete_order');
 
 
 function ajax_update_cart_fragment($fragments)
