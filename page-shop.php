@@ -15,7 +15,7 @@
         <!-- Image (mobile only) -->
         <figure class="mt-24 w-[280px] aspect-[5/7] relative mx-auto group lg:hidden">
           <span class="absolute inset-0 duration-200 border-2 border-new-york-pink/20 rounded-2xl -rotate-6 group-hover:rotate-0"></span>
-          <img src="<?= get_template_directory_uri() ?>/assets/images/bonbons-hero-image.webp" alt="Кондитерская BonBons г. Солигорск" class="absolute inset-0 object-cover object-center w-full h-full duration-200 rounded-2xl rotate-6 group-hover:rotate-0">
+          <img src="<?= get_template_directory_uri() ?>/assets/images/cup-cakes.jpg" alt="Кондитерская BonBons г. Солигорск" class="absolute inset-0 object-cover object-center w-full h-full duration-200 rounded-2xl rotate-6 group-hover:rotate-0">
         </figure>
         <!-- Subheading -->
         <p class="mt-12 text-2xl text-zinc-500 lg:mt-40">
@@ -33,7 +33,7 @@
         <!-- Image (desktop only) -->
         <figure class="hidden w-full aspect-[5/7] relative group ml-auto lg:block">
           <span class="absolute inset-0 duration-200 border-2 border-new-york-pink/20 rounded-2xl -rotate-6 group-hover:rotate-0"></span>
-          <img src="<?= get_template_directory_uri() ?>/assets/images/bonbons-hero-image.webp" alt="Кондитерская BonBons г. Солигорск" class="absolute inset-0 object-cover object-center w-full h-full duration-200 rounded-2xl rotate-6 group-hover:rotate-0">
+          <img src="<?= get_template_directory_uri() ?>/assets/images/cup-cakes.jpg" alt="Кондитерская BonBons г. Солигорск" class="absolute inset-0 object-cover object-center w-full h-full duration-200 rounded-2xl rotate-6 group-hover:rotate-0">
         </figure>
       </div>
     </div>
@@ -136,7 +136,7 @@
         </h2>
         <figure class="mt-12 w-52 aspect-[5/7] relative mx-auto group sm:w-full lg:w-60 sm:mt-0">
           <span class="absolute inset-0 duration-200 border-2 border-zinc-700/20 rounded-2xl rotate-6 group-hover:rotate-0"></span>
-          <img src="<?= get_template_directory_uri() ?>/assets/images/bonbons-hero-image.webp" alt="Кондитерская BonBons г. Солигорск" class="absolute inset-0 object-cover object-center w-full h-full rounded-2xl">
+          <img src="<?= get_template_directory_uri() ?>/assets/images/moti.webp" alt="Кондитерская BonBons г. Солигорск" class="absolute inset-0 object-cover object-center w-full h-full rounded-2xl">
         </figure>
       </div>
       <!-- Column -->
