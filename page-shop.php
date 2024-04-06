@@ -63,7 +63,7 @@
       Пожалуйста, обратите внимание, мы осуществляем бронь наборов по предварительной 100% предоплате. После оформления заказа вы автоматически будете перенаправлены на страницу платежной системы.
     </p>
     <p class="mt-6 text-2xl font-semibold tracking-wider text-zinc-700">
-      Если у вас возникнут любые трудности с оплатой заказа, свяжитесь с нами по телефону <a href="tel:+375257377530" class="hover:text-rosy-brown">+375 (25) 737-75-30</a>. При отмене заказа, предоплата не возвращается.
+      Если у вас возникнут любые трудности с оплатой заказа, свяжитесь с нами по телефону <a href="tel:+375257377530" class="hover:text-rosy-brown">+375 (25) 737-75-30</a>. При отмене заказа менее чем за 2е суток, предоплата не возвращается. Оформляя заказ Вы соглашаетесь с правилами.
     </p>
   </div>
 </section>
@@ -97,9 +97,10 @@
     </h2>
     <!-- Text -->
     <p class="mt-8 text-2xl text-zinc-500">
-      Вы можете самостоятельно забрать свой набор у <a href="#contacts" class="hover:text-rosy-brown text-new-york-pink">нас</a> или заказать доставку до
-      адреса
-      <br>Доставка наборов работает с 10:00 до 20:00
+      Укажите&nbsp;, если Вам нужна доставка до адреса&nbsp. Также Вы можете самостоятельно забрать свой заказ у <a href="#contacts" class="hover:text-rosy-brown text-new-york-pink">нас</a>&nbsp. Доставка работает с 10:00 до 19:30&nbsp.
+    </p>
+    <p class="mt-2 text-2xl font-semibold text-zinc-500">
+      Сумма доставки не входит в стоимость заказа&nbsp;, и оплачивается курьеру отдельно на месте&nbsp.
     </p>
     <!-- Items -->
     <ul class="mt-12">
@@ -108,23 +109,7 @@
           5 Рублей
         </span>
         <span class="w-8/12 text-lg font-semibold md:text-2xl text-zinc-700">
-          По городу Солигорску
-        </span>
-      </li>
-      <li class="flex items-center justify-between p-6 mt-6 border-4 border-opacity-50 rounded-2xl border-new-york-pink">
-        <span class="w-4/12 mr-4 text-xl font-bold md:text-3xl text-new-york-pink/90">
-          10 Рублей
-        </span>
-        <span class="w-8/12 text-lg font-semibold md:text-2xl text-zinc-700">
-          Поместье
-        </span>
-      </li>
-      <li class="flex items-center justify-between p-6 mt-6 border-4 border-opacity-50 rounded-2xl border-new-york-pink">
-        <span class="w-4/12 mr-4 text-xl font-bold md:text-3xl text-new-york-pink/90">
-          15 Рублей
-        </span>
-        <span class="w-8/12 text-lg font-semibold md:text-2xl text-zinc-700">
-          Старобин
+          По городу Солигорску <span class="font-normal">(не зависимо от суммы заказа)</span>
         </span>
       </li>
       <li class="flex items-center justify-between p-6 mt-6 border-4 border-opacity-50 rounded-2xl border-new-york-pink">
@@ -132,7 +117,7 @@
 
         </span>
         <span class="w-8/12 text-lg font-semibold md:text-2xl text-zinc-700">
-          Другие районы и пригород рассчитываются индивидуально
+          Другие районы и пригород рассчитываются по тарифам Яндекс
         </span>
       </li>
     </ul>
