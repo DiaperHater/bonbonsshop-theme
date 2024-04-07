@@ -72,8 +72,6 @@
     @apply block px-4;
   }
 
-  /* End Products Loop */
-
   /* Start Single Product */
   .bonbonsshop {
 
@@ -248,8 +246,6 @@
     }
   }
 
-  /* End Single Product */
-
   /* Start Delivery & Pickup date picker */
   .bonbonsshop {
     .orddd_lite_field_note {
@@ -272,11 +268,8 @@
     }
   }
 
-  /* End Delivery & Pickup date picker */
-
 
   /* Start Single product custom-decor inputs */
-
   .bonbonsshop {
 
     .wapf-field-row {
@@ -319,9 +312,16 @@
     }
   }
 
-  /* End Single product custom-decor inputs */
 
-  /* End Override Woo styles */
+  /* Hide delivery rates */
+  .bonbonsshop {
 
+    .wc-block-components-totals-shipping .wc-block-formatted-money-amount {
+      @apply hidden;
+    }
 
+    .wc-block-components-shipping-rates-control__package .wc-block-components-radio-control__description-group {
+      @apply hidden;
+    }
+  }
 }
