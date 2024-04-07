@@ -106,6 +106,14 @@
     <ul class="mt-12">
       <li class="flex items-center justify-between p-6 mt-6 border-4 border-opacity-50 rounded-2xl border-new-york-pink">
         <span class="w-4/12 mr-4 text-xl font-bold md:text-3xl text-new-york-pink/90">
+          Бсплатно
+        </span>
+        <span class="w-8/12 text-lg font-semibold md:text-2xl text-zinc-700">
+          Самовывоз с <a href="#contacts" class="font-normal underline hover:text-rosy-brown">ул Набережная 4</a>
+        </span>
+      </li>
+      <li class="flex items-center justify-between p-6 mt-6 border-4 border-opacity-50 rounded-2xl border-new-york-pink">
+        <span class="w-4/12 mr-4 text-xl font-bold md:text-3xl text-new-york-pink/90">
           5 Рублей
         </span>
         <span class="w-8/12 text-lg font-semibold md:text-2xl text-zinc-700">
@@ -114,10 +122,10 @@
       </li>
       <li class="flex items-center justify-between p-6 mt-6 border-4 border-opacity-50 rounded-2xl border-new-york-pink">
         <span class="w-4/12 mr-4 text-xl font-bold md:text-3xl text-new-york-pink/90">
-
+          По тарифам Яндекс
         </span>
         <span class="w-8/12 text-lg font-semibold md:text-2xl text-zinc-700">
-          Другие районы и пригород рассчитываются по тарифам Яндекс
+          Другие районы и пригород
         </span>
       </li>
     </ul>
