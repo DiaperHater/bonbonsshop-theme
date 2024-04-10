@@ -33,6 +33,16 @@ add_action('after_setup_theme', 'bonbonsshop_admin_theme_setup');
 
 /** START Woo */
 
+
+function bonbonsshop_change_select_options_button_text($label, $product)
+{
+  if ($product->is_type('variable')) {
+    return 'Выберите параметры';
+  }
+  return $label;
+}
+add_filter('woocommerce_product_add_to_cart_text', 'bonbonsshop_change_select_options_button_text', 9999, 2);
+
 function custom_woocommerce_auto_complete_order($order_id)
 {
   if (!$order_id) {
@@ -74,13 +84,5 @@ remove_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 20);
 remove_action('woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30);
 
 remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);
-
-
-// remove_action('woocommerce_shop_loop_item_title', 'woocommerce_template_loop_product_title', 10);
-// function bons_woocommerce_template_loop_product_title()
-// {
-//   echo '<h2 class="text-2xl font-bold">Suck my dick! hahaha )))</h2>';
-// }
-// add_action('woocommerce_shop_loop_item_title', 'bons_woocommerce_template_loop_product_title', 10);
 
 /** END Woo */
