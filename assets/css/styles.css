@@ -1451,6 +1451,8 @@ html {
 }
 
 .bonbonsshop .woocommerce ul.products li.product {
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   border-radius: 1rem;
   padding-bottom: 2rem;
@@ -1493,6 +1495,7 @@ html {
 .bonbonsshop .woocommerce ul.products li.product .button {
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
   display: block;
   width: -moz-fit-content;
   width: fit-content;

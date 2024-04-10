@@ -47,7 +47,7 @@
   }
 
   .bonbonsshop .woocommerce ul.products li.product {
-    @apply pb-8 overflow-hidden shadow-2xl rounded-2xl;
+    @apply flex flex-col pb-8 overflow-hidden shadow-2xl rounded-2xl;
   }
 
   .bonbonsshop .woocommerce ul.products li.product a img {
@@ -65,7 +65,7 @@
   }
 
   .bonbonsshop .woocommerce ul.products li.product .button {
-    @apply block mx-auto w-fit;
+    @apply block mx-auto mt-auto w-fit;
   }
 
   .bonbonsshop .woocommerce a.added_to_cart {
