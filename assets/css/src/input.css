@@ -324,4 +324,28 @@
       @apply hidden;
     }
   }
+
+  /* Checkout page */
+  .bonbonsshop {
+
+    .woocommerce-billing-fields,
+    .woocommerce-shipping-fields {
+
+      /* Text input */
+      .input-text {
+
+        @apply px-4 py-3 border rounded-lg border-new-york-pink focus:ring active:ring;
+      }
+
+    }
+
+    .woocommerce-checkout-review-order {
+
+      button#place_order {
+
+        @apply bonbonsshop-button;
+      }
+    }
+
+  }
 }
