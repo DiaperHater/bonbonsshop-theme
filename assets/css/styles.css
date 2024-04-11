@@ -2268,6 +2268,10 @@ html {
   margin-top: 2rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -3957,6 +3961,11 @@ html {
 .text-zinc-700 {
   --tw-text-opacity: 1;
   color: rgb(63 63 70 / var(--tw-text-opacity));
+}
+
+.text-rosy-brown {
+  --tw-text-opacity: 1;
+  color: rgb(181 148 148 / var(--tw-text-opacity));
 }
 
 .underline {
