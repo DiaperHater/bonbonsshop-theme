@@ -44,23 +44,25 @@
         <a href="/" class="block mb-12 mr-12 text-4xl font-bold leading-none tracking-wide hover:text-rosy-brown text-new-york-pink">
           BonBons
         </a>
-        <a href="/pravovaya-informacia" class="block mt-2 font-light text-zinc-400 hover:text-rosy-brown">
+        <a href="/pravovaya-informacia" class="block mt-2 font-light underline text-zinc-400 hover:text-rosy-brown">
           Правовая информация
         </a>
-        <a href="/dostavka-i-oplata" class="block mt-2 font-light text-zinc-400 hover:text-rosy-brown">
+        <a href="/dostavka-i-oplata" class="block mt-2 font-light underline text-zinc-400 hover:text-rosy-brown">
           Доставка и оплата
         </a>
-        <a href="/politika-v-otnoshenii-obrabotki-personalnykh-dannykh/" class="block mt-2 font-light leading-tight text-zinc-400 hover:text-rosy-brown">
+        <a href="/politika-v-otnoshenii-obrabotki-personalnykh-dannykh/" class="block mt-2 font-light leading-tight underline text-zinc-400 hover:text-rosy-brown">
           Политика обработки
           <br>персональных данных
         </a>
-        <a href="/publichnaya-oferta" class="block mt-2 font-light text-zinc-400 hover:text-rosy-brown">
+        <a href="/publichnaya-oferta" class="block mt-2 font-light underline text-zinc-400 hover:text-rosy-brown">
           Публичная оферта
         </a>
         <span class="block mt-6 font-light text-zinc-400">
-          Частное унитарное предприятие «Бонбонс»
-          <br>BY05 ALFA 3012 2E42 7500 1027 0000
+          <strong>Частное унитарное предприятие «Бонбонс»</strong>
           <br>УНП 693294239
+          <br>223710,Республика Беларусь, Минская обл., г. Солигорск, ул. Набережная, 4
+          <br>Свидетельство о государственной регистрации №693294239, выдано Солигорским райисполкомом 9.01.2024 г.
+          <br>Интернет-магазин включен в Торговый реестр Республики Беларусь 2.04.2024 за №577798
         </span>
         <span class="block mt-6 font-light text-zinc-400">
           © <?= date("Y") ?> Кондитерская "BONBONS" г.&nbsp;Солигорск
@@ -74,12 +76,12 @@
         <a href="tel:+375257377530" class="block mt-2 font-light text-zinc-400 hover:text-rosy-brown">
           +375 (25) 737-75-30
         </a>
-        <picture class="mt-6 sm:mt-auto">
-          <source media="(min-width: 640px)" srcset="<?= get_template_directory_uri() ?>/assets/images/payment-logos-horisontal.png">
-          <img src="<?= get_template_directory_uri() ?>/assets/images/payment-logos-vertical.png" alt="логотипы VISA, Visa Secure, MasterCard, MasterCard ID Check, Белкарт, Белкарт ИнтернетПароль, Apple Pay, Samsung Pay, Yandex Pay" class="w-40 sm:w-full sm:mt-auto">
-        </picture>
       </div>
     </div>
+    <picture class="block mt-6">
+      <source media="(min-width: 640px)" srcset="<?= get_template_directory_uri() ?>/assets/images/payment-logos-horisontal.png">
+      <img src="<?= get_template_directory_uri() ?>/assets/images/payment-logos-vertical.png" alt="логотипы VISA, Visa Secure, MasterCard, MasterCard ID Check, Белкарт, Белкарт ИнтернетПароль, Apple Pay, Samsung Pay, Yandex Pay" class="w-40 sm:w-full sm:mt-auto">
+    </picture>
   </div>
 </footer>
 <?php wp_footer() ?>
