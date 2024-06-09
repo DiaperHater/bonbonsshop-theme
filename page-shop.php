@@ -9,8 +9,11 @@
       <div class="lg:col-span-8 xl:col-span-7">
         <!-- Heading -->
         <h1 class="section-heading">
-          <span class="inline-block mb-2 text-4xl font-normal">Кондитерская</span>
-          <br>BONBONS
+          BONBONS
+          <br>
+          <span class="inline-block mb-2 text-4xl font-normal">
+            Праздник каждый день !
+          </span>
         </h1>
         <!-- Image (mobile only) -->
         <figure class="mt-24 w-[280px] aspect-[5/7] relative mx-auto group lg:hidden">
