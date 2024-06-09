@@ -8,10 +8,10 @@
       <!-- Column -->
       <div class="lg:col-span-8 xl:col-span-7">
         <!-- Heading -->
-        <h1 class="section-heading">
+        <h1 class="section-heading suranna-regular">
           BONBONS
           <br>
-          <span class="inline-block mb-2 text-4xl font-normal">
+          <span class="inline-block mb-2 text-4xl font-normal great-vibes-regular">
             Праздник каждый день !
           </span>
         </h1>

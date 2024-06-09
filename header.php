@@ -10,6 +10,16 @@
   <link rel="preload" href="<?= get_template_directory_uri() ?>/assets/fonts/Roboto_Condenced/RobotoCondensed-Italic-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
   <!-- END Fonts -->
 
+  <!-- START Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Suranna&display=swap" rel="stylesheet">
+  <!-- END Google Fonts -->
+
   <?php wp_head() ?>
 
   <title><?= get_the_title() ?></title>
@@ -22,7 +32,7 @@
       <!-- Inner -->
       <nav class="grid items-center grid-cols-2 py-3 lg:grid-cols-3">
         <!-- Logo -->
-        <a href="/" class="mr-12 text-4xl font-bold leading-none tracking-wide hover:text-rosy-brown text-new-york-pink">
+        <a href="/" class="mr-12 text-4xl font-bold leading-none tracking-wide uppercase hover:text-rosy-brown text-new-york-pink suranna-regular">
           BonBons
         </a>
         <!-- Lable -->

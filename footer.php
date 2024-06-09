@@ -41,7 +41,7 @@
       <!-- Column -->
       <div class="">
         <!-- Logo -->
-        <a href="/" class="block mb-12 mr-12 text-4xl font-bold leading-none tracking-wide hover:text-rosy-brown text-new-york-pink">
+        <a href="/" class="block mb-12 mr-12 text-4xl font-bold leading-none tracking-wide uppercase hover:text-rosy-brown text-new-york-pink suranna-regular">
           BonBons
         </a>
         <a href="/pravovaya-informacia" class="block mt-2 font-light underline text-zinc-400 hover:text-rosy-brown">
