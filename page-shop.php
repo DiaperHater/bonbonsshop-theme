@@ -1,7 +1,7 @@
 <?php get_header() ?>
 
 <!-- HomeHero -->
-<section class="pt-40 pb-12 bg-linen lg:pt-52 lg:pb-24">
+<section class="pt-40 pb-12 bg-bonbons-blue lg:pt-52 lg:pb-24">
   <div class="wrapper lg:max-w-6xl">
     <!-- Columns -->
     <div class="lg:grid lg:grid-cols-12 lg:gap-x-6">
@@ -136,7 +136,7 @@
 </section>
 
 <!-- CTA -->
-<section class="py-12 bg-new-york-pink bg-opacity-20 sm:py-24">
+<section class="py-12 bg-opacity-50 bg-bonbons-blue sm:py-24">
   <div class="wrapper">
     <!-- Columns -->
     <div class="sm:grid sm:grid-cols-3 sm:gap-12 lg:grid-cols-5">

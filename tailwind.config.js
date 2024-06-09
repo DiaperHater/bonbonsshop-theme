@@ -7,6 +7,7 @@ module.exports = {
         'rosy-brown': '#B59494',
         'new-york-pink': '#D68386',
         'linen': '#FBEBEC',
+        'bonbons-blue': '#D8E6FF',
       }
     },
   },

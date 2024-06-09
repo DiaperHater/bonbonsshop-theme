@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-<section class="pt-32 pb-12 sm:pt-40">
+<section class="pt-32 pb-12 bg-bonbons-blue sm:pt-40">
   <div class="wrapper">
     <!-- Heading -->
     <h2 class="mb-12 section-heading">
