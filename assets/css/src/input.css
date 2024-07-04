@@ -60,6 +60,10 @@
 
   .bonbonsshop .woocommerce ul.products li.product {
     @apply flex flex-col pb-8 overflow-hidden shadow-2xl rounded-2xl;
+
+    &.product_cat-hidden {
+      @apply hidden;
+    }
   }
 
   .bonbonsshop .woocommerce ul.products li.product a img {
