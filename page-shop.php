@@ -112,7 +112,7 @@
           Бсплатно
         </span>
         <span class="w-8/12 text-lg font-semibold md:text-2xl text-zinc-700">
-          Самовывоз с <a href="#contacts" class="font-normal underline hover:text-rosy-brown">ул Набережная 4</a>
+          Самовывоз с <a href="#contacts" class="font-normal underline hover:text-rosy-brown">ул Октябрьская 46</a>
         </span>
       </li>
       <li class="flex items-center justify-between p-6 mt-6 border-4 border-opacity-50 rounded-2xl border-new-york-pink">

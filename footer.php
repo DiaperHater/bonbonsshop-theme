@@ -10,7 +10,7 @@
         </h2>
         <address class="mt-12 text-xl not-italic">
           Беларусь, Минская область, Солигорск,
-          <br>Набережная улица, 4
+          <br>Октябрьская улица, 46
         </address>
         <p class="mt-6 text-xl not-italic">
           Ежедневно 9:00 - 20:00
@@ -27,7 +27,7 @@
       </div>
       <!-- Column -->
       <div class="lg:w-[50vw]">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9652.19596457293!2d27.5536472!3d52.7854247!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d831f1397c1765%3A0xdcc2f31e759f3463!2zQmUgU3dlZXQg0JzQsNCz0LDQt9C40L0g0LTQu9GPINC60L7QvdC00LjRgtC10YDQsCDQmCDQmtC-0L3QtNC40YLQtdGA0YHQutCw0Y8gQk9OQk9OUyDQodC-0LvQuNCz0L7RgNGB0Lo!5e0!3m2!1sen!2sby!4v1710965574780!5m2!1sen!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full mt-12 lg:mt-0"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1206.3273436759464!2d27.514274537003903!3d52.79253457213387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d8308af2512417%3A0x150224e0f44a0417!2zdnVsLiBLYXN0cnnEjW7RltGBa2FqYSA0NiwgU2FsaWhvcnNrLCBNaW5za2FqYSB2b2JsYXPEhw!5e0!3m2!1sen!2sby!4v1720098026458!5m2!1sen!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full mt-12 lg:mt-0"></iframe>
       </div>
     </div>
   </div>
