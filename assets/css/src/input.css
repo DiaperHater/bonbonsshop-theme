@@ -172,7 +172,7 @@
           }
 
           button {
-            @apply bg-new-york-pink/90 hover:bg-new-york-pink;
+            @apply bg-new-york-pink/90 hover:bg-new-york-pink mt-5 min-[420px]:mt-0;
           }
         }
 

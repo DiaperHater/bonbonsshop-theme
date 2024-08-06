@@ -1737,11 +1737,19 @@ html {
           }
         }
         button {
+          margin-top: 1.25rem;
+        }
+        button {
           background-color: rgb(214 131 134 / 0.9);
         }
         button:hover {
           --tw-bg-opacity: 1;
           background-color: rgb(214 131 134 / var(--tw-bg-opacity));
+        }
+        @media (min-width: 420px) {
+          button {
+            margin-top: 0px;
+          }
         }
       }
     }
